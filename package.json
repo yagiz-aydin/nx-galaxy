@@ -5,7 +5,6 @@
   "scripts": {
     "start": "npx nx run-many -t serve --projects=shell,terra --parallel=true"
   },
-  "private": true,
   "devDependencies": {
     "@angular-architects/native-federation": "^21.1.0",
     "@angular-devkit/core": "~21.1.0",
