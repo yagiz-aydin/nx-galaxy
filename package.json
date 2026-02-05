@@ -2,7 +2,9 @@
   "name": "@nx-galaxy/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "npx nx run-many -t serve --projects=shell,terra --parallel=true"
+  },
   "private": true,
   "devDependencies": {
     "@angular-architects/native-federation": "^21.1.0",
